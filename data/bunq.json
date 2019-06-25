@@ -22,7 +22,28 @@
     "status": "available"
   },
   "developerPortalUrl": "https://doc.bunq.com/",
-  "apiProducts": [],
+  "apiProducts": [
+  {
+      "label": "Account Information",
+      "type": "accountInformation",
+      "categories": ["accounts"],
+      "description": "Retrieve details of an account such as balance transactions, balance and details and more.",
+      "documentationUrl": "https://doc.bunq.com#psd2",
+      "apiReferenceUrl": "https://doc.bunq.com#psd2",
+      "premium": false,
+      "stage": "upcoming"
+    },
+    {
+      "label": "Payment Initiation",
+      "type": "paymentInitiation",
+      "categories": ["payments"],
+      "description": "Initiate single and scheduled payments. Retrieve information on the status of the transaction.",
+      "documentationUrl": "https://doc.bunq.com#psd2",
+      "apiReferenceUrl": "https://doc.bunq.com#psd2",
+      "premium": false,
+      "stage": "upcoming"
+    }
+  ],
   "apiStandards": [],
   "webApplication": false,
   "mobileApps": [
@@ -40,5 +61,10 @@
   "crunchbase": "bunq",
   "github": "bunq",
   "fca": null,
-  "articles": []
+  "articles": [
+    {
+      "url": "https://medium.com/bunq-developers-corner/bunq-api-update-psd2-endpoints-impact-on-existing-integrations-8eb88eb58745",
+      "date": "2019-06-14"
+    }
+  ]
 }
